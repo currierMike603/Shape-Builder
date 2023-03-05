@@ -14,6 +14,10 @@ public class Main {
                 Square square = new Square();
                 square.printSquare();
             }
+            if(userInput == 2) {
+                Rectangle rectangle = new Rectangle();
+                rectangle.printRectangle();
+            }
             if(userInput == 3) {
                 System.out.println("Goodbye!");
                 qToQuit = true;
